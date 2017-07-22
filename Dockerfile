@@ -1,4 +1,4 @@
 FROM microsoft/dotnet:1.0-runtime
-WORKDIR /app
+WORKDIR /Program
 COPY out .
 ENTRYPOINT ["dotnet", "dotnetapp.dll"]
